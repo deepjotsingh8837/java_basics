@@ -10,6 +10,7 @@ public class TestComparable {
 		st.add(new StudentComparable("Deepu",32,22));
 		st.add(new StudentComparable("Kunu",5,12));
 		st.add(new StudentComparable("Ram",4,16));
+		st.add(new StudentComparable("Deepu",3,22));
 		Collections.sort(st);
 		for(StudentComparable c:st) {
 			System.out.println(c.name+" "+c.rollNo+" "+c.age);
